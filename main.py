@@ -21,13 +21,9 @@ import powerstate
 requests.packages.urllib3.disable_warnings()
 urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 
-#username = 'stefansch@ntnx.test'
-#password = 'nutanix/4u'
-#cluster_ip = '172.23.1.110'
-
-username = 'stefan'
-password = 'Scharly83!'
-cluster_ip = '10.38.6.71'
+username = 'xxx'
+password = 'xxx'
+cluster_ip = 'x.x.x.x'
 base_url = ("https://%s:9440/PrismGateway/services/rest/v2.0/" % (cluster_ip))
 new_state = "off"
 
